@@ -18,6 +18,10 @@ CRC Polynomials
 
 The CRC shall support fixed polynomials: crc_8_sae(0x1d), crc_8_autosar(0x2f), crc_16_ccitt(0x1021), crc_32(0x04C11DB7), crc_32c93(0xD419CC15). Additionally, the CRC shall support configurable polynomials for CRC8, CRC16, CRC32, and CRC64.
 
-CRC interface
+CRC Interface
 
 The CRC shall support AHB Lite slave interface for register configuration, data input, and data output. The AHB Lite slave shall support byte/halfword/word access, and support burst 4/8/16 for raw data region.
+
+CRC Done Interrupt
+
+The CRC shall support done interrupt when the configured data length is reached.
