@@ -2,7 +2,7 @@
 
 # 2026-02-25 Round 1
 
-## KIMI CLI
+## KIMI R1_0_kimi_report.md
 0. 
 common_rule.md
 
@@ -23,7 +23,7 @@ Add data length configuration and generate DONE interrutp.
 5. 
 it looks fine. please generate doc/kimi_report.md file to log all communication.
 
-## GEMINI
+## GEMINI R1_1_gemini_report.md
 0. 
 common_rule.md
 
@@ -70,8 +70,10 @@ start simulation
 12. 
 please generate doc/gemini_r1_report.md file to log all communication.
 
+=> GEMINI can not fix shell & Verilog TB error.
 
-## KIMI
+
+## KIMI R1_2_kimi_report.md
 
 0. 
 read doc/gemini_r1_report.md to underdand previous task.
@@ -88,8 +90,21 @@ double check design spec and RTL, if any other missing.
 4. 
 start simulation
 
+=> KIMI fixed shell and TB error.
+
+5. 
+add tmp folder and all simulation files are in tmp folder. each test case is in individual folder.
+add default simulation timeout time 1ms.
+
+6. 
+add test case for 100% function coverage.
+add several test cases or 100% function coverage.
 
 
+
+
+
+please generate doc/R1_2_kimi_report.md file to log all communication after read doc/gemini_r1_report.md. 
 
 
 # 2026-02-25 Round 0
