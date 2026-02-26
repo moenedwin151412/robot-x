@@ -100,11 +100,11 @@ add default simulation timeout time 1ms.
 add test case for 100% function coverage.
 add several test cases or 100% function coverage.
 
+7. 
+please generate doc/R1_2_kimi_report.md file to log all communication after read doc/gemini_r1_report.md.
 
-
-
-
-please generate doc/R1_2_kimi_report.md file to log all communication after read doc/gemini_r1_report.md. 
+8. 
+ignore tmp folder for git ignore file. commit and push updated / added files.
 
 
 # 2026-02-25 Round 0
